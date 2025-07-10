@@ -1,0 +1,269 @@
+/* ======================================= */
+/*      CSS COMPLETO PARA contacto.css     */
+/* ======================================= */
+
+body {
+    font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* --- HEADER (Consistente) --- */
+.zara-nav {
+    padding: 0.5rem 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.zara-nav .navbar-brand img { width: 160px; height: auto; max-height: 60px; object-fit: contain; }
+.zara-nav .nav-link { color: #000; font-weight: 500; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.05rem; margin: 0 0.8rem; padding: 0.5rem 0; border-bottom: 2px solid transparent; }
+.zara-nav .nav-link.active { font-weight: 700; border-bottom-color: #000; }
+.zara-nav .nav-right a { color: #000; text-decoration: none; font-weight: 500; font-size: 0.8rem; text-transform: uppercase; }
+
+/* --- CONTENIDO PRINCIPAL --- */
+.contact-main {
+    padding: 4rem 0 6rem 0;
+    background-color: #f7f7f7; /* Un fondo gris muy claro para el contenido */
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-transform: lowercase;
+}
+
+/* --- Formulario de Contacto --- */
+.contact-form {
+    background-color: #000;
+    color: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: none;
+    border-radius: 30px; /* Bordes muy redondeados */
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    outline: none;
+    transition: box-shadow 0.2s ease;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #999;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.form-group textarea {
+    border-radius: 20px; /* Un poco menos redondeado para el textarea */
+    resize: vertical;
+}
+
+/* Estilo para el SELECT */
+.select-wrapper {
+    position: relative;
+}
+.select-wrapper::after {
+    content: '▼';
+    font-size: 0.8rem;
+    color: #000;
+    position: absolute;
+    right: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Permite hacer clic a través del ícono */
+}
+.form-group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Botón de Enviar */
+.submit-btn {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #222;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 1rem;
+}
+
+.submit-btn:hover {
+    color: black !important;
+    /* Texto blanco al hacer hover */
+    background-color: white !important;
+    /* Fondo negro */
+    border-color: black !important;
+    /* Mantiene el borde negro */
+    box-shadow: none !important;
+    /* Opcional: quita la sombra si no la quieres */
+}
+
+
+/* --- FOOTER (Consistente) --- */
+.zara-footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 4rem 1rem 2rem 1rem;
+    position: relative;
+}
+/* ... (el resto de las reglas del footer no cambian) */
+.zara-footer h5 { font-weight: 600; margin-bottom: 1.5rem; font-size: 1rem; text-transform: uppercase; }
+.zara-footer ul { list-style: none; padding: 0; }
+.zara-footer li { margin-bottom: 0.75rem; }
+.zara-footer a { color: #ccc; text-decoration: none; transition: color 0.3s ease; font-size: 0.95rem; }
+.zara-footer a:hover { color: #fff; }
+.zara-footer .social-links span { margin-right: 1.5rem; cursor: pointer; font-size: 0.95rem; }
+
+.btn {
+    color: white !important;
+    /* Color del texto */
+    background-color: black !important;
+    /* Sin fondo */
+    border: 1px solid black !important;
+    /* Borde más fino */
+    font-weight: 500;
+    transition: all 0.3s ease !important;
+}
+
+.btn:hover {
+    color: black !important;
+    /* Texto blanco al hacer hover */
+    background-color: transparent !important;
+    /* Fondo negro */
+    border-color: black !important;
+    /* Mantiene el borde negro */
+    box-shadow: none !important;
+    /* Opcional: quita la sombra si no la quieres */
+}
+
+.zara-nav {
+    padding: 0.5rem 0;
+    background-color: #fff !important;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.zara-nav .navbar-brand img {
+    width: 160px;
+    height: auto;
+    max-height: 60px;
+    object-fit: contain;
+}
+.navbar-nav .nav-link {
+    position: relative;
+    padding-bottom: 10px;
+    /* Espacio para la línea */
+}
+
+.navbar-nav .nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    /* Color de la línea */
+}
+footer.bg-dark {
+    color: #fff;
+}
+footer.bg-dark h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+footer.bg-dark ul {
+    list-style: none;
+    padding: 0;
+}
+footer.bg-dark ul li {
+    margin-bottom: 0.5rem;
+}
+footer.bg-dark a.text-light {
+    color: #adb5bd !important;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+footer.bg-dark a.text-light:hover {
+    color: #fff !important;
+}
+
+/* ======================================================== */
+/* --- AÑADIR ESTE CÓDIGO PARA LOS EFECTOS HOVER --- */
+/* ======================================================== */
+
+/* 1. EFECTO HOVER PARA LOS ENLACES DE NAVEGACIÓN */
+
+/* Le decimos al enlace que la transición de su borde y color debe ser suave */
+.zara-nav .nav-link {
+    transition: border-bottom-color 0.3s ease, color 0.3s ease;
+}
+
+/* Cuando el cursor pasa sobre un enlace que NO tiene la clase .active... */
+.zara-nav .nav-link:not(.active):hover {
+    /* ...hacemos visible el borde inferior, cambiando su color de transparente a negro. */
+    border-bottom-color: #000;
+}
+
+
+/* 2. EFECTO HOVER PARA EL LOGO */
+
+/* Añadimos la transición al estado base de la imagen del logo */
+.zara-nav .navbar-brand img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Cuando el cursor pasa sobre el contenedor del logo... */
+.zara-nav .navbar-brand:hover img {
+    /* ...hacemos la imagen un poco más grande y sutil. */
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+
+/* 3. EFECTO HOVER PARA LOS ICONOS DE LA DERECHA (BÚSQUEDA) */
+
+/* Añadimos transición a los iconos */
+.zara-nav .nav-right a svg {
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* Al pasar el cursor, el icono se agranda un poco */
+.zara-nav .nav-right a:hover svg {
+    transform: scale(1.15);
+}

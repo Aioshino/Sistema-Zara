@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/main.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- Logo o título -->
+            <a class="navbar-brand" href="#">
+                <img src="../static/img/image-removebg-preview.png" alt="Logo" width="400" height="400"
+                    class="d-inline-block align-top">
+            </a>
+            <!-- Menú principal (izquierda) -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- Dropdown para MUJER -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        MUJER
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- Sección "NEW COLLECTION" -->
+                        <li><a class="dropdown-item" href="#">50º ANIVERSARIO</a></li>
+                        <!-- Botón NEW COLLECTION con submenu -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">NEW COLLECTION</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">SUMMER GETAWAY</a></li>
+                                <li><a class="dropdown-item" href="#">PRENDA EXTERIOR</a></li>
+                                <li><a class="dropdown-item" href="#">BLAZERS | CHALECOS</a></li>
+                                <li><a class="dropdown-item" href="#">VESTIDOS | MONOS</a></li>
+                                <li><a class="dropdown-item" href="#">PANTALONES</a></li>
+                                <li><a class="dropdown-item" href="#">JEANS</a></li>
+                                <li><a class="dropdown-item" href="#">LENCERÍA</a></li>
+                                <li><a class="dropdown-item" href="#">CAMISAS | BLUSAS</a></li>
+                                <li><a class="dropdown-item" href="#">TOPS | BODIES</a></li>
+                                <li><a class="dropdown-item" href="#">PUNTO | SUDADERAS</a></li>
+                                <li><a class="dropdown-item" href="#">FALDAS</a></li>
+                                <li><a class="dropdown-item" href="#">SHORTS</a></li>
+                                <li><a class="dropdown-item" href="#">CAMISETAS</a></li>
+                                <li><a class="dropdown-item" href="#">TOTAL LOOK</a></li>
+                                <li><a class="dropdown-item" href="#">ZAPATOS</a></li>
+                                <li><a class="dropdown-item" href="#">BOLSOS</a></li>
+                                <li><a class="dropdown-item" href="#">ACCESORIOS</a></li>
+                                <li><a class="dropdown-item" href="#">PERFUMES</a></li>
+                            </ul>
+                        </li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Sección "REBAJAS" -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle rebajas-section" href="#">REBAJAS</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">VER TODO</a></li>
+                                <li><a class="dropdown-item" href="#">ABRIGOS | TRENCH</a></li>
+                                <li><a class="dropdown-item" href="#">CAZADORAS</a></li>
+                                <li><a class="dropdown-item" href="#">BLAZERS | CHALECOS</a></li>
+                                <li><a class="dropdown-item" href="#">VESTIDOS | MONOS</a></li>
+                                <li><a class="dropdown-item" href="#">PANTALONES | JEANS</a></li>
+                                <li><a class="dropdown-item" href="#">CAMISAS | BLUSAS</a></li>
+                                <li><a class="dropdown-item" href="#">TOPS | BODIES</a></li>
+                                <li><a class="dropdown-item" href="#">CAMISETAS</a></li>
+                                <li><a class="dropdown-item" href="#">PUNTO</a></li>
+                                <li><a class="dropdown-item" href="#">SUDADERAS</a></li>
+                                <li><a class="dropdown-item" href="#">FALDAS</a></li>
+                                <li><a class="dropdown-item" href="#">SHORTS | BERMUDAS</a></li>
+                                <li><a class="dropdown-item" href="#">ZAPATOS</a></li>
+                                <li><a class="dropdown-item" href="#">BOLSOS</a></li>
+                                <li><a class="dropdown-item" href="#">ACCESORIOS | PERFUMES</a></li>
+                            </ul>
+                        </li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Otras categorías -->
+                        <li><a class="dropdown-item" href="#">TRAVEL MODEL</a></li>
+                        <li><a class="dropdown-item" href="#">TARJETA DE REGALO</a></li>
+                        <li><a class="dropdown-item" href="#">DESCARGAR APP</a></li>
+                        <li><a class="dropdown-item" href="#">JOIN LIFE</a></li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Sección "+ INFO" -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle dropdown-title" href="#">+ INFO</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">NEWSLETTER</a></li>
+                                <li><a class="dropdown-item" href="#">CONTACTO</a></li>
+                                <li><a class="dropdown-item" href="#">TIENDAS</a></li>
+                                <li><a class="dropdown-item" href="#">AYUDA</a></li>
+                                <li><a class="dropdown-item" href="#">TARJETA REGALO</a></li>
+                                <li><a class="dropdown-item" href="#">PRENSA</a></li>
+                                <li><a class="dropdown-item" href="#">EMPRESA</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">TIENDAS</a></li>
+                    </ul>
+                </li>
+                <!-- Dropdown para HOMBRE -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        HOMBRE
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- Sección "NEW COLLECTION" -->
+                        <li><a class="dropdown-item" href="#">50º ANIVERSARIO</a></li>
+                        <!-- Botón NEW COLLECTION con submenu -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">NEW COLLECTION</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">VER TODO</a></li>
+                                <li><a class="dropdown-item" href="#">PRENDA EXTERIOR</a></li>
+                                <li><a class="dropdown-item" href="#">PANTALONES</a></li>
+                                <li><a class="dropdown-item" href="#">CAMISAS</a></li>
+                                <li><a class="dropdown-item" href="#">CAMISETAS | POLOS</a></li>
+                                <li><a class="dropdown-item" href="#">PUNTO | SUDADERAS</a></li>
+                                <li><a class="dropdown-item" href="#">JEANS</a></li>
+                                <li><a class="dropdown-item" href="#">BLAZERS</a></li>
+                                <li><a class="dropdown-item" href="#">TRAJES</a></li>
+                                <li><a class="dropdown-item" href="#">BERMUDAS</a></li>
+                                <li><a class="dropdown-item" href="#">ZAPATOS</a></li>
+                                <li><a class="dropdown-item" href="#">BOLSAS | MOCHILAS</a></li>
+                                <li><a class="dropdown-item" href="#">ACCESORIOS</a></li>
+                            </ul>
+                        </li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Sección "REBAJAS" -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle rebajas-section" href="#">REBAJAS</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">VER TODO</a></li>
+                                <li><a class="dropdown-item" href="#">PANTALONES</a></li>
+                                <li><a class="dropdown-item" href="#">JEANS</a></li>
+                                <li><a class="dropdown-item" href="#">PRENDA EXTERIOR</a></li>
+                                <li><a class="dropdown-item" href="#">TOPS | BODIES</a></li>
+                                <li><a class="dropdown-item" href="#">CAMISAS</a></li>
+                                <li><a class="dropdown-item" href="#">PUNTO</a></li>
+                                <li><a class="dropdown-item" href="#">CAMISETAS</a></li>
+                                <li><a class="dropdown-item" href="#">SUDADERAS</a></li>
+                                <li><a class="dropdown-item" href="#">BERMUDAS</a></li>
+                                <li><a class="dropdown-item" href="#">ZAPATOS</a></li>
+                                <li><a class="dropdown-item" href="#">BLAZERS</a></li>
+                                <li><a class="dropdown-item" href="#">TRAJES</a></li>
+                                <li><a class="dropdown-item" href="#">SOBRECAMISAS</a></li>
+                                <li><a class="dropdown-item" href="#">POLOS</a></li>
+                                <li><a class="dropdown-item" href="#">ACCESORIOS | PERFUMES</a></li>
+                            </ul>
+                        </li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Otras categorías -->
+                        <li><a class="dropdown-item" href="#">TRAVEL MODEL</a></li>
+                        <li><a class="dropdown-item" href="#">TARJETA DE REGALO</a></li>
+                        <li><a class="dropdown-item" href="#">DESCARGAR APP</a></li>
+                        <li><a class="dropdown-item" href="#">JOIN LIFE</a></li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Sección "+ INFO" -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle dropdown-title" href="#">+ INFO</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">NEWSLETTER</a></li>
+                                <li><a class="dropdown-item" href="#">CONTACTO</a></li>
+                                <li><a class="dropdown-item" href="#">TIENDAS</a></li>
+                                <li><a class="dropdown-item" href="#">AYUDA</a></li>
+                                <li><a class="dropdown-item" href="#">TARJETA REGALO</a></li>
+                                <li><a class="dropdown-item" href="#">PRENSA</a></li>
+                                <li><a class="dropdown-item" href="#">EMPRESA</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">TIENDAS</a></li>
+                    </ul>
+                </li>
+                <!-- Dropdown para NIÑO -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        NIÑO
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- Sección "NEW COLLECTION" -->
+                        <li><a class="dropdown-item" href="#">50º ANIVERSARIO</a></li>
+                        <!-- Botón NEW COLLECTION con submenu -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">NEW COLLECTION</a>
+                            <ul class="dropdown-menu">
+                                <!-- Sección NIÑA -->
+                                <li><strong>NIÑA</strong></li>
+                                <li><a class="dropdown-item" href="#">1½ - 6 AÑOS</a></li>
+                                <li><a class="dropdown-item" href="#">6 - 14 AÑOS</a></li>
+                                <!-- Sección NIÑO -->
+                                <li><strong>NIÑO</strong></li>
+                                <li><a class="dropdown-item" href="#">1½ - 6 AÑOS</a></li>
+                                <li><a class="dropdown-item" href="#">6 - 14 AÑOS</a></li>
+                                <!-- Sección BEBÉ -->
+                                <li><strong>BEBÉ</strong></li>
+                                <li><a class="dropdown-item" href="#">0 - 18 MESES</a></li>
+                                <!-- Otra opción -->
+                                <li><a class="dropdown-item" href="#">SUMMER GETAWAY</a></li>
+                            </ul>
+                        </li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Sección "REBAJAS" -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle rebajas-section" href="#">REBAJAS</a>
+                            <ul class="dropdown-menu">
+                                <!-- Sección NIÑA -->
+                                <li><strong>NIÑA</strong></li>
+                                <li><a class="dropdown-item" href="#">1½ - 6 AÑOS</a></li>
+                                <li><a class="dropdown-item" href="#">6 - 14 AÑOS</a></li>
+                                <!-- Sección NIÑO -->
+                                <li><strong>NIÑO</strong></li>
+                                <li><a class="dropdown-item" href="#">1½ - 6 AÑOS</a></li>
+                                <li><a class="dropdown-item" href="#">6 - 14 AÑOS</a></li>
+                                <!-- Sección BEBÉ -->
+                                <li><strong>BEBÉ</strong></li>
+                                <li><a class="dropdown-item" href="#">0 - 18 MESES</a></li>
+                            </ul>
+                        </li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Otras categorías -->
+                        <li><a class="dropdown-item" href="#">TRAVEL MODEL</a></li>
+                        <li><a class="dropdown-item" href="#">TARJETA DE REGALO</a></li>
+                        <li><a class="dropdown-item" href="#">DESCARGAR APP</a></li>
+                        <li><a class="dropdown-item" href="#">JOIN LIFE</a></li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Sección "+ INFO" -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle dropdown-title" href="#">+ INFO</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">NEWSLETTER</a></li>
+                                <li><a class="dropdown-item" href="#">CONTACTO</a></li>
+                                <li><a class="dropdown-item" href="#">TIENDAS</a></li>
+                                <li><a class="dropdown-item" href="#">AYUDA</a></li>
+                                <li><a class="dropdown-item" href="#">TARJETA REGALO</a></li>
+                                <li><a class="dropdown-item" href="#">PRENSA</a></li>
+                                <li><a class="dropdown-item" href="#">EMPRESA</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">TIENDAS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">50º ANIVERSARIO</a>
+                </li>
+                <!-- Dropdown para PERFUMES -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        PERFUMES
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- Sección "NEW COLLECTION" -->
+                        <li><a class="dropdown-item" href="#">50º ANIVERSARIO</a></li>
+                        <!-- Botón MUJER con submenu -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">MUJER</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">REBAJAS</a></li>
+                                <li><a class="dropdown-item" href="#">PERFUME</a></li>
+                            </ul>
+                        </li>
+                        <!-- Sección "HOMBRE" -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle rebajas-section" href="#">HOMBRE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">PERFUME</a></li>
+                            </ul>
+                        </li>
+                        <!-- Sección "+ NIÑO" -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle dropdown-title" href="#">NIÑO</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">PERFUME</a></li>
+                            </ul>
+                        </li>
+                        <!-- Separador -->
+                        <li class="dropdown-divider"></li>
+                        <!-- Otras categorías -->
+                        <li><a class="dropdown-item" href="#">TARJETA DE REGALO</a></li>
+                        <li><a class="dropdown-item" href="#">DESCARGAR APP</a></li>
+                        <li><a class="dropdown-item" href="#">JOIN LIFE</a></li>
+                        <!-- Sección "+ INFO" -->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle dropdown-title" href="#">+ INFO</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">NEWSLETTER</a></li>
+                                <li><a class="dropdown-item" href="#">CONTACTO</a></li>
+                                <li><a class="dropdown-item" href="#">TIENDAS</a></li>
+                                <li><a class="dropdown-item" href="#">AYUDA</a></li>
+                                <li><a class="dropdown-item" href="#">TARJETA REGALO</a></li>
+                                <li><a class="dropdown-item" href="#">PRENSA</a></li>
+                                <li><a class="dropdown-item" href="#">EMPRESA</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TRAVEL MODE</a>
+                </li>
+            </ul>
+
+
+            <!-- Barra de búsqueda y botones adicionales (abajo) -->
+            <div class="d-flex align-items-center">
+                <!-- Campo de búsqueda -->
+                <form class="me-2">
+                    <input type="text" class="form-control search-input" placeholder="Buscar">
+                </form>
+
+                <!-- Botones adicionales -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">INICIAR SESIÓN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AYUDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            CESTA
+                            <span class="cart-badge">[0]</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+.navbar {
+  background-color: white !important;
+}
+
+.nav-link {
+  color: black !important;
+  font-family: 'Stock Web', sans-serif !important;
+}
+
+.btn {
+  color: black !important;
+  /* Color del texto */
+  background-color: transparent !important;
+  /* Sin fondo */
+  border: 1px solid black !important;
+  /* Borde más fino */
+  font-weight: 500;
+  transition: all 0.3s ease !important;
+}
+
+.btn:hover {
+  color: white !important;
+  /* Texto blanco al hacer hover */
+  background-color: black !important;
+  /* Fondo negro */
+  border-color: black !important;
+  /* Mantiene el borde negro */
+  box-shadow: none !important;
+  /* Opcional: quita la sombra si no la quieres */
+}
+
+/* Ajuste: Separar el logo un poco del borde izquierdo */
+.custom-navbar .logo {
+  padding-left: 2rem !important;
+}
+
+/* Ajuste: Separar el contenido derecho del borde derecho */
+.custom-navbar .col-md-4 {
+  padding-right: 1rem !important;
+}
+
+/* Ajuste: Espacio entre elementos del menú (usamos gap en .nav-nav) */
+.navbar-nav {
+  display: flex !important;
+  gap: 1.5rem !important;
+  /* Espacio entre cada nav-item */
+}
+
+.titulo {
+  font-size: 12vh;
+}
+
+.relleno {
+  font-size: 3vh;
+}
+
+/* Opcional: Ajusta el tamaño del logo si es demasiado grande */
+.navbar-brand img {
+  max-height: 80px !important;
+  width: auto !important;
+}
+
+.img-fluid {
+  height: 70vh;
+}
+
+/* Centrar el contenido verticalmente */
+.container .col-md-8 {
+  align-items: center !important;
+  padding: 5vh !important;
+}
+
+/* Centrar el texto horizontalmente */
+h1,
+p {
+  text-align: center !important;
+  padding: 2vh !important;
+}
+
+/* Contenedor para los botones */
+.d-flex.justify-content-start {
+  justify-content: center !important;
+  /* Centra los botones horizontalmente */
+}
+
+body {
+  background-color: white !important;
+}
+
+/* =================================================================== */
+/* --- AÑADIR ESTE BLOQUE PARA LOS EFECTOS HOVER (COMPATIBLE) --- */
+/* =================================================================== */
+
+/* 1. Efecto Hover para los enlaces de la navegación principal y secundaria */
+/* Le decimos que la transición se aplique a los cambios de color del borde y del texto */
+/* Usamos .custom-navbar .nav-link para asegurar que se aplique a tu navbar */
+.custom-navbar .nav-link {
+  transition: color 0.3s ease, border-color 0.3s ease;
+  /* Asegura que haya un borde invisible inicialmente para la transición */
+  border-bottom: 2px solid transparent;
+}
+
+/* Al pasar el cursor sobre un enlace que NO esté activo... */
+.custom-navbar .nav-link:not(.active):hover {
+  /* ...hacemos visible su borde inferior cambiando el color a negro. */
+  color: #000;
+  /* Opcional: cambiar también el color del texto al pasar el ratón */
+  border-bottom-color: #000;
+}

@@ -1,0 +1,28 @@
+.dropdown-submenu {
+  position: relative !important;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: -7px !important;
+  left: 100% !important;
+  min-width: 200px !important;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block !important;
+}
+
+.dropdown-submenu > a::after {
+  content: " ›" !important;
+  float: right !important;
+  border: none !important;
+}
+body{
+  background-color:white !important;
+}
+.navbar{
+  background-color:rgb(11, 201, 43) !important;
+}
+.navbar .nav-link{
+  color: white !important;
+}
