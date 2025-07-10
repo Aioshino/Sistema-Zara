@@ -107,3 +107,15 @@ body {
   /* Opcional: cambiar también el color del texto al pasar el ratón */
   border-bottom-color: #000;
 }
+/* 2. Efecto Hover para el Logo */
+/* Añadimos una transición suave para que el efecto no sea brusco */
+.custom-navbar .navbar-brand img {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+}
+
+/* Al pasar el cursor sobre el logo... */
+.custom-navbar .navbar-brand:hover img {
+    /* ...lo hacemos un poco más grande y sutil. */
+    transform: scale(1.05);
+    opacity: 0.9;
+}
